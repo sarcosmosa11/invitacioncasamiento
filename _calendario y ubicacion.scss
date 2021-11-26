@@ -1,0 +1,143 @@
+/*  mobile-first */
+@media (min-width: 600px) {
+    .body {
+            background-color: rgb(235, 202, 160);
+      }
+}
+
+/* calendario y ubicacion */
+
+.grid {
+    justify-items: stretch; 
+    justify-content: stretch; 
+    display: grid;
+    width: 95%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-template-rows: 80px 80px;
+    grid-row-gap: 10px;
+  }
+.grid div {
+    border: solid 1px;
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(236, 202, 160);
+    justify-self: stretch;
+    align-self: stretch;
+  }
+
+.nav__list {
+    display: flex;
+        list-style: disc;
+        list-style-position: initial;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+.logoanimado {
+    text-align: left;
+    animation-duration: 3s;
+    animation-name: aparecer;
+
+}
+
+body {
+    background-color: #ebcaa0;
+    justify-content: space-between;
+    padding: 1em;
+}
+.scale{
+transform: scale(1.6);
+}
+
+/* menu - header*/
+header{
+	text-align: center;
+    height: 20%;
+}
+
+ul {
+    list-style: none;
+ }
+ li {
+    display: inline-block;
+    width: 30%;
+    font-size: large;
+    color: black;
+ }
+ 
+ ul li a:hover {
+    background-color: rgb(236, 202, 160);
+    color: white;
+    padding: 4px;
+ }
+
+article, aside{
+	background-color: rgb(235, 202, 160);
+    display: inline-block;
+}
+
+footer{
+	background-color: rgb(214, 216, 214);
+	margin:1px;
+    justify-content: space-evenly;
+    height: 20%;
+}
+
+article, aside, footer{
+	flex:1;
+	padding: 1rem;
+	margin:1px;
+}
+
+h1 {
+    color:rgb(62, 68, 62);
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+}
+
+section{
+	margin: 20px;
+	display: inline-block;
+    background-color: rgb(228, 184, 126);
+    flex:1;
+	padding: 1rem;
+	margin:1px;
+}
+section article {
+	background-color: rgb(235, 202, 160);
+	width: 550px;
+	height: 100px;
+	padding: 40px;
+    margin: inherit;
+}
+
+section article p {
+	line-height: 2;
+}
+
+h5 {
+    color:rgb(62, 68, 62);
+    font-family: 'Dancing Script', cursive;
+}
+table {
+    border: 2px flex;
+    background-color: rgb(235, 202, 160);
+    font-family: 'Dancing Script', cursive;
+}
+
+calendario y ubicacion{
+    background-color: rgb(236, 202, 160);
+}
+
+@keyframes aparecer {
+    0% { opacity: 0;
+}
+    100% { opacity: 1;
+    }
+}

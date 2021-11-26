@@ -1,0 +1,758 @@
+/*  mobile-first */
+@media (min-width: 600px) {
+  .body {
+    background-color: #ebcaa0;
+  }
+}
+/* index */
+.pareja__luciaymarcos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 82;
+  height: 30%;
+  align-content: center;
+  padding-top: 1%;
+}
+
+#main {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+}
+
+.mensaje__Italica {
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  color: #252525;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.container__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("file:///Users/marcosisosa/Documents/Coder/Desarrollo%20Web/Carpeta%20Rai%CC%81z/sunflower-top.png");
+  align-items: flex-start;
+  height: 40vh;
+  align-items: center;
+  background-color: #ebcaa0;
+}
+
+.nav__list {
+  display: flex;
+  list-style: disc;
+  list-style-position: initial;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logoanimado {
+  text-align: left;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+body {
+  background-color: #ebcaa0;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.scale {
+  transform: scale(1.6);
+}
+
+/* menu - header*/
+header {
+  text-align: center;
+  height: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+  font-size: large;
+  color: black;
+}
+
+ul li a:hover {
+  background-color: #eccaa0;
+  color: white;
+  padding: 4px;
+}
+
+article, aside {
+  background-color: #ebcaa0;
+  display: inline-block;
+}
+
+footer {
+  background-color: #d6d8d6;
+  margin: 1px;
+  justify-content: space-evenly;
+  height: 20%;
+}
+
+article, aside, footer {
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+h1 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+section {
+  margin: 20px;
+  display: inline-block;
+  background-color: #e4b87e;
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+section article {
+  background-color: #ebcaa0;
+  width: 550px;
+  height: 100px;
+  padding: 40px;
+  margin: inherit;
+}
+
+section article p {
+  line-height: 2;
+}
+
+h5 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+}
+
+table {
+  border: 2px flex;
+  background-color: #ebcaa0;
+  font-family: "Dancing Script", cursive;
+}
+
+index {
+  background-color: #eccaa0;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*  mobile-first */
+@media (min-width: 600px) {
+  .body {
+    background-color: #ebcaa0;
+  }
+}
+/* fotos */
+.nav__list {
+  display: flex;
+  list-style: disc;
+  list-style-position: initial;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logoanimado {
+  text-align: left;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+body {
+  background-color: #ebcaa0;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.scale {
+  transform: scale(1.6);
+}
+
+/* menu - header*/
+header {
+  text-align: center;
+  height: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+  font-size: large;
+}
+
+ul li a:hover {
+  background-color: #eccaa0;
+  padding: 4px;
+}
+
+article, aside {
+  background-color: #ebcaa0;
+  display: inline-block;
+}
+
+footer {
+  background-color: #d6d8d6;
+  margin: 1px;
+  justify-content: space-evenly;
+  height: 20%;
+}
+
+article, aside, footer {
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+h1 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+section {
+  margin: 20px;
+  display: inline-block;
+  background-color: #e4b87e;
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+section article {
+  background-color: #ebcaa0;
+  width: 550px;
+  height: 100px;
+  padding: 40px;
+  margin: inherit;
+}
+
+section article p {
+  line-height: 2;
+}
+
+h5 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+}
+
+table {
+  border: 2px flex;
+  background-color: #ebcaa0;
+  font-family: "Dancing Script", cursive;
+}
+
+.container__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 40vh;
+  align-items: center;
+  background-color: #ebcaa0;
+}
+
+.carousel {
+  width: 50%;
+  height: 50%;
+  margin-top: 10vh;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+fotos {
+  background-color: #eccaa0;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*  mobile-first */
+@media (min-width: 600px) {
+  .body {
+    background-color: #ebcaa0;
+  }
+}
+/* videos */
+.nav__list {
+  display: flex;
+  list-style: disc;
+  list-style-position: initial;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logoanimado {
+  text-align: left;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+body {
+  background-color: #ebcaa0;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.scale {
+  transform: scale(1.6);
+}
+
+/* menu - header*/
+header {
+  text-align: center;
+  height: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+  font-size: large;
+  color: black;
+}
+
+ul li a:hover {
+  background-color: #eccaa0;
+  color: white;
+  padding: 4px;
+}
+
+article, aside {
+  background-color: #ebcaa0;
+  display: inline-block;
+}
+
+footer {
+  background-color: #d6d8d6;
+  margin: 1px;
+  justify-content: space-evenly;
+  height: 20%;
+}
+
+article, aside, footer {
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+h1 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+section {
+  margin: 20px;
+  display: inline-block;
+  background-color: #e4b87e;
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+section article {
+  background-color: #ebcaa0;
+  width: 550px;
+  height: 100px;
+  padding: 40px;
+  margin: inherit;
+}
+
+section article p {
+  line-height: 2;
+}
+
+h5 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+}
+
+table {
+  border: 2px flex;
+  background-color: #ebcaa0;
+  font-family: "Dancing Script", cursive;
+}
+
+.container__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 40vh;
+  align-items: center;
+  background-color: #ebcaa0;
+  background-image: url("file:///Users/marcosisosa/Documents/Coder/Desarrollo%20Web/Carpeta%20Rai%CC%81z/sunflower-top.png");
+}
+
+videos {
+  background-color: #eccaa0;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*  mobile-first */
+@media (min-width: 600px) {
+  .body {
+    background-color: #ebcaa0;
+  }
+}
+/* mensaje para los novios */
+form {
+  background-color: #ebcaa0;
+  font-family: "Dancing Script", cursive;
+}
+
+.form-group {
+  width: 100vh;
+  margin-left: 50vh;
+  margin-right: 50vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: #ebcaa0;
+  font-family: "Dancing Script", cursive;
+}
+
+.btn-default {
+  width: 8vh;
+  height: 5vh;
+  margin-left: 50vh;
+  margin-right: 50vh;
+}
+
+.custom-select {
+  margin-left: 50vh;
+  margin-right: 50vh;
+}
+
+/* Mi constante */
+select {
+  color: green;
+}
+
+.nav__list {
+  display: flex;
+  list-style: disc;
+  list-style-position: initial;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logoanimado {
+  text-align: left;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+body {
+  background-color: #ebcaa0;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.scale {
+  transform: scale(1.6);
+}
+
+/* menu - header*/
+header {
+  text-align: center;
+  height: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+  font-size: large;
+  color: black;
+}
+
+ul li a:hover {
+  background-color: #eccaa0;
+  color: white;
+  padding: 4px;
+}
+
+article, aside {
+  background-color: #ebcaa0;
+  display: inline-block;
+}
+
+footer {
+  background-color: #d6d8d6;
+  margin: 1px;
+  justify-content: space-evenly;
+  height: 20%;
+}
+
+article, aside, footer {
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+h1 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+section {
+  margin: 20px;
+  display: inline-block;
+  background-color: #e4b87e;
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+section article {
+  background-color: #ebcaa0;
+  width: 550px;
+  height: 100px;
+  padding: 40px;
+  margin: inherit;
+}
+
+section article p {
+  line-height: 2;
+}
+
+h5 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+}
+
+table {
+  border: 2px flex;
+  background-color: #ebcaa0;
+  font-family: "Dancing Script", cursive;
+}
+
+mensaje para los novios {
+  background-color: #eccaa0;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*  mobile-first */
+@media (min-width: 600px) {
+  .body {
+    background-color: #ebcaa0;
+  }
+}
+/* calendario y ubicacion */
+.grid {
+  justify-items: stretch;
+  justify-content: stretch;
+  display: grid;
+  width: 95%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-template-rows: 80px 80px;
+  grid-row-gap: 10px;
+}
+
+.grid div {
+  border: solid 1px;
+  font-size: 30px;
+  padding: 5px;
+  background-color: #eccaa0;
+  justify-self: stretch;
+  align-self: stretch;
+}
+
+.nav__list {
+  display: flex;
+  list-style: disc;
+  list-style-position: initial;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logoanimado {
+  text-align: left;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+body {
+  background-color: #ebcaa0;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.scale {
+  transform: scale(1.6);
+}
+
+/* menu - header*/
+header {
+  text-align: center;
+  height: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+  font-size: large;
+  color: black;
+}
+
+ul li a:hover {
+  background-color: #eccaa0;
+  color: white;
+  padding: 4px;
+}
+
+article, aside {
+  background-color: #ebcaa0;
+  display: inline-block;
+}
+
+footer {
+  background-color: #d6d8d6;
+  margin: 1px;
+  justify-content: space-evenly;
+  height: 20%;
+}
+
+article, aside, footer {
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+h1 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+section {
+  margin: 20px;
+  display: inline-block;
+  background-color: #e4b87e;
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+section article {
+  background-color: #ebcaa0;
+  width: 550px;
+  height: 100px;
+  padding: 40px;
+  margin: inherit;
+}
+
+section article p {
+  line-height: 2;
+}
+
+h5 {
+  color: #3e443e;
+  font-family: "Dancing Script", cursive;
+}
+
+table {
+  border: 2px flex;
+  background-color: #ebcaa0;
+  font-family: "Dancing Script", cursive;
+}
+
+calendario y ubicacion {
+  background-color: #eccaa0;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

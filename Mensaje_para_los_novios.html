@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sección donde los invitados le escriben sus deseos a Lucía y Marcos">
+   <meta name="keywords"  content="MENSAJE, CARTA, REFLEXION, SENTIMENTAL">
+    <link rel="icon" type="image/x-icon" href="Lucía+ Marcos (2).png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Mensaje para los novios</title>
+
+</head>
+<body class="body">
+    	<!-- menu - header -->
+        <header>
+            <nav>    
+                <ul class="nav__list">
+                    <li class="logoanimado"><img src="Lucía+ Marcos (2).png" width="150vw" height="150vh"></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Fotos.html">Fotos</a></li>
+                    <li><a href="Videos.html">Videos</a></li>
+                    <li><a href="Mensaje para los novios.html">Mensaje para los novios</a></li>
+                    <li><a href="Calendario y ubicacion.html">Calendario y ubicacion</a></li>
+                    </ul>
+                </nav>	
+    </header>
+
+
+    <main>
+       <div class="form-group">
+           <form action="/action_page.php">
+            <label for="Nombre">Nombre</label>
+            <input type="Nombre" class="form-control" id="Nombre" placeholder="Nombre" name="Nombre">
+            </div>
+            <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="apellido" class="form-control" id="apellido" placeholder="Apellido" name="Apellido">
+            </div>
+            <div class="form-group">
+            <label for="Nickname">Nickname:</label>
+            <input type="Nickname" class="form-control" id="Nickname" placeholder="Nickname" name="Nickname">
+            </div>
+            <div class="form-group">
+            <label><input type="file" name="adjuntararchivo"> Adjuntar Archivo</label>
+       </div>
+            <form>
+                <select name="Relacionconlosnovios" class="custom-select" class>
+                  <option selected>Relación con los novios</option>
+                  <option value="Familiar">Familiar</option>
+                  <option value="Amigo">Amigo</option>
+                  <option value="Colado">Colado</option>
+                </select>
+              </form>
+       <div class="form-group form-check">
+                <label class="form-check-label">
+                    <h2>Confirmás asistencia?</h2>
+                  <input class="form-check-input" type="checkbox" name="remember" required> Si
+                  <div class="invalid-feedback"></div>
+                </label>
+       </div>
+              <div class="form-group">
+                <label for="escribetumensaje">Escribe tu mensaje:</label>
+                <textarea class="form-control" rows="5" id="escribetumensaje" ></textarea>
+              </div>
+            <button type="Enviar" class="btn-default">Enviar</button>
+          </form>
+        
+      </main>
+
+</body>
+</html>
